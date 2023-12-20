@@ -1,0 +1,17 @@
+package com.myproject.gamepair
+
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import com.myproject.gamepair.ui.theme.GamepairTheme
+
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContent {
+            GamepairTheme {
+
+            }
+        }
+    }
+}
