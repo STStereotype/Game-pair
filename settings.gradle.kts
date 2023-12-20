@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "gamepair"
 include(":app")
+include(":domain")
